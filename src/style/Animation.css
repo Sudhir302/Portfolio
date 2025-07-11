@@ -1,0 +1,34 @@
+/* -------------color animation---------------------- */
+
+@keyframes rbg {
+  0% {
+    color: #ff4d4d; /* soft red */
+  }
+  20% {
+    color: #4dd2ff; /* sky blue */
+  }
+  40% {
+    color: #00e676; /* neon green */
+  }
+  60% {
+    color: #ffea00; /* bright yellow */
+  }
+  80% {
+    color: #ff6ec7; /* pinkish purple */
+  }
+  100% {
+    color: #ff4d4d; /* loop back to red */
+  }
+}
+
+/* ------------seamless loop effect--------------------- */
+
+@keyframes seamless-loop {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}

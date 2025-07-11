@@ -1,0 +1,35 @@
+.tech-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 8rem;
+    gap: .5rem;
+}
+
+.tech-container i{
+    background-color: orange;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    align-content: center;    
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease-in;
+}
+
+.tech-container strong{
+    letter-spacing: .3rem;
+}
+
+.tech-container i:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+    background-color: rgba(255, 166, 0, 0.674);
+}
+
+/* ------------------------mobile- view------------------- */
+
+
+@media screen and (max-width: 480px) {
+}

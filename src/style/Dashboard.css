@@ -1,0 +1,34 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.batch-1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.batch-2{
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.able{
+    display: none;
+}
+
+/* 
+------------------mobile view------------------------ */
+
+
+@media screen and (max-width: 480px) {
+    .able{
+        display: block;
+    }
+}

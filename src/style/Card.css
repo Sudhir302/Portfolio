@@ -1,0 +1,76 @@
+.card-container{
+    margin-top: 2rem;
+    display: flex;
+    /* justify-content: center; */
+    gap: 1.6rem;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-color: rgb(50, 49, 49);
+    max-width: 20rem;
+    min-width: 19rem;
+    font-family: inter, poppins, roboto;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: all .5s ease-in;
+}
+
+.type{
+    font-size: 1.8rem;
+    color: orange;
+    position: relative;
+}
+
+.type::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.125rem;
+    width: 0%;
+    background-color: orange;
+    transition: width .5s ease-in;
+}
+
+.type:hover{
+    cursor: pointer;
+}
+
+.type:hover::after{
+    width: 100%;
+}
+
+.desc, .tech-used, .role{
+    max-width: 18rem;
+    text-align: justify;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+
+.cards:hover{
+    transform: translateY(-1.1rem);
+}
+
+
+/* -----------------------------------media view------------------------------ */
+
+@media screen and (max-width: 780px) {
+
+    .card-container{
+        justify-content:center;
+        gap: 2rem;
+    }
+    
+}

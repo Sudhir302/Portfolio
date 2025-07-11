@@ -1,0 +1,20 @@
+.skills{
+    margin-top: 2rem;
+    overflow: auto;
+    padding: 1rem;
+    background-color: rgb(42, 41, 41);
+    scrollbar-width: none;
+}
+
+.skill-belt{
+    margin-top: 1rem;
+    display: flex;
+    gap: 5rem;
+    animation: seamless-loop 15s linear infinite ;
+    
+}
+
+
+.skill-belt:hover{
+    animation-play-state: paused;
+}

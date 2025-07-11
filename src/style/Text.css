@@ -1,0 +1,40 @@
+.logo{
+    font-family: Rye, roboto;
+    font-size: 2.5rem;
+    width: fit-content;
+    color: #41d3ed;
+    letter-spacing: .1rem;
+    transition: linear .2s;
+    animation: rbg 10s infinite ease-in;
+}
+
+.logo:hover{
+    cursor: pointer;
+    text-shadow: -4px 3px 5px rgb(0, 221, 255);
+}
+
+.logo:active{
+    text-shadow:-4px 3px 5px orange;
+}
+
+.heading{
+    font-family: inter, poppins, roboto, sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.secondary{
+    color: #dfddddd3;
+}
+
+.accent{
+    color: #00D4FF;
+}
+
+/* ----------------------------------mobile view--------------------------------- */
+
+@media screen and (max-width: 480px) {
+    .logo{
+        font-size: 1.3rem;
+    }
+}

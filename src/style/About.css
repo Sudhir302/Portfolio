@@ -1,0 +1,83 @@
+.about-container{
+    display: flex;
+    position: relative;
+}
+
+.picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.picture img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 5px solid orange;
+}
+
+.mydec{
+    margin-top: 8rem;
+    background-color: yellow;
+    height: 50vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-name{
+    font-size: 3rem;
+    font-family: poppins, roboto;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.position{
+    font-size: 1.5rem;
+}
+
+.my-name:hover{
+    transform: translateY(-1.08rem);
+    text-shadow: -4px 4px 12px rgb(59, 61, 61);
+    cursor: pointer;
+}
+
+.position:hover{
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+/* -----------------------mobile view--------------------------------- */
+
+
+@media screen and (max-width: 480px) {
+    
+    .picture img{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .mydec{
+        margin-top: 5rem;
+        height: 25vh;
+        justify-content:unset;
+    }
+
+    .my-name{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .position{
+        font-size: .85rem;
+        font-weight: bold;
+    }
+
+}
