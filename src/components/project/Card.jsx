@@ -53,7 +53,7 @@ function Card(){
             </div>
             <div className="cards">
                 <div className="type">
-                    Chatapp
+                    E-commerce
                 </div>
                 <div className="desc letshad"> A sleek, responsive web application designed for managing and showcasing affiliate products. It allows users to browse a curated selection of items and seamlessly navigate to external platforms like Amazon or Flipkart via dedicated product links</div>
                 <div className="tech-used letshad">
